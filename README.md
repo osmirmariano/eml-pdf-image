@@ -8,7 +8,7 @@ Converter EML para PDF
 const emlPdfImage = require('eml-pdf-image');
 
 let conversao = await emlPdfImage.emlToPdf('./exemplo/exemplo.eml', './exemplo/exemplo.pdf');
-conversao.success : 'Arquivo convertido com sucesso' : 'Não foi possível converter';
+conversao.success ? 'Arquivo convertido com sucesso' : 'Não foi possível converter';
 ```
 
 Converter EML para IMAGEM (JEPG)
@@ -16,7 +16,7 @@ Converter EML para IMAGEM (JEPG)
 const emlPdfImage = require('eml-pdf-image');
 
 let conversao = await emlPdfImage.emlToImage('./exemplo/exemplo.eml');
-conversao.success : 'Arquivo convertido com sucesso' : 'Não foi possível converter'
+conversao.success ? 'Arquivo convertido com sucesso' : 'Não foi possível converter'
 ```
 
 ## License ##

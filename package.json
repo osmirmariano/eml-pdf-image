@@ -1,6 +1,6 @@
 {
   "name": "eml-pdf-image",
-  "version": "1.0.8",
+  "version": "1.0.14",
   "description": "Biblioteca para conversão de arquivos de .eml para pdf e para imagem",
   "main": "./lib/eml.js",
   "scripts": {
